@@ -19,8 +19,8 @@ end
  def printer(attendees)
    attendees = ["Edsgar", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
    counter = 0 
-   batch_badge_creator.each do 
-   puts next 
+   batch_badge_creator.each do ||
+     
    counter += 1
  end
  end
