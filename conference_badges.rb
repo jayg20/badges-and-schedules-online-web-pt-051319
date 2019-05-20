@@ -16,8 +16,7 @@ def batch_badge_creator(attendees)
 end
 end 
  
- def printer(attendees)
-   attendees = ["Edsgar", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+ def printer(:attendees)
    batch_badge_creator
    assign_rooms
   
