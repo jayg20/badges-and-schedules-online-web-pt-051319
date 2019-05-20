@@ -17,8 +17,14 @@ end
 end 
  
  def printer(attendees)
-   batch_badge_creator.each
-   assign_rooms.each
+   attendees = ["Edsgar", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+   counter = 0 
+   for name in batch_badge_creator
+   puts next 
+   counter += 1
+ end
+ end
+   assign_rooms.each do 
  end
  
  printer(attendees)
