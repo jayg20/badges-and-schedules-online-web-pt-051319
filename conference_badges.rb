@@ -15,4 +15,6 @@ assigned_array=  attendees.each_with_index do |name, index|
    return assigned_array
  end
  
- 
+ def printer
+   batch_badge_creator
+   assign_rooms
