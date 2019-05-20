@@ -17,8 +17,9 @@ end
 end 
  
  def printer(attendees)
-   attendees= ["Edsgar", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+   counter= 0 
    batch_badge_creator.each do |name|
+  counter += 1 
      
    assign_rooms
  end
