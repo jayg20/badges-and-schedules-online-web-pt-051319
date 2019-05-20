@@ -18,8 +18,9 @@ end
  
  def printer(attendees)
    batch_badge_creator.each do
-     line.chomp
-   assign_rooms
+     .chomp
+   assign_rooms.each do
+     .chomp
  end
  
  printer(attendees)
