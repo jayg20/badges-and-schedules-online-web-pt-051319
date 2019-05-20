@@ -17,7 +17,8 @@ indexed_attendees = attendees.each_with_index +1 do |name, index|
  
  def printer(attendees)
    attendees= ["Edsgar", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-   batch_badge_creator
+   batch_badge_creator.each do
+     
    assign_rooms
  end
  
