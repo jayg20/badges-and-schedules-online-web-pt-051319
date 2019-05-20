@@ -9,10 +9,7 @@ def batch_badge_creator(attendees)
  end 
  
  def assign_rooms(attendees)
-    attendees = %w(Edsgar Ada Charles  Alan Grace Linus Matz).each
-indexed_attendees = attendees.each_with_index+1 do |name, index|
-   puts "Hello, #{name}! You will be assigned to room #{index}"
-  return indexed_attendees
+    attendees = %w(Edsgar Ada Charles  Alan Grace Linus Matz).each_with_index
  end
  
  def printer(attendees)
