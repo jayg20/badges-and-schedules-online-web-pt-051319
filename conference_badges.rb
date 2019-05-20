@@ -1,4 +1,4 @@
-def badge_maker(:name)
+def badge_maker(name)
   puts "Hello, my name is #{name}"
 end
 
@@ -15,14 +15,8 @@ end
 end 
  
  def printer(:attendees)
-   batch_badge_creator
-   assign_rooms
-  
-     
-     
- end
- end
-   assign_rooms.each do 
+   return :badges_and_room_assignments
+   
  end
  
  printer(:attendees)
