@@ -11,16 +11,14 @@ def batch_badge_creator(attendees)
  def assign_rooms(attendees)
     attendees = ["Edsgar", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   require 'enumerator'
-[attendees].enum_for(:each_with_index).collect do |name, index| 
+[attendees].enum_for(each_with_index).collect do |name, index| 
  puts  "Hello, #{name}! You'll be assigned to room #{index}!"
 end
 end 
  
  def printer(attendees)
-   batch_badge_creator.each do
-     .chomp
-   assign_rooms.each do
-     .chomp
+   batch_badge_creator.each
+   assign_rooms.each
  end
  
  printer(attendees)
