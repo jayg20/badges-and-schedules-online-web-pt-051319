@@ -17,10 +17,8 @@ end
 end 
  
  def printer(attendees)
-   counter= 0 
-   batch_badge_creator.each do |name|
-  counter += 1 
-     
+   batch_badge_creator.each
+   for n
    assign_rooms
  end
  
