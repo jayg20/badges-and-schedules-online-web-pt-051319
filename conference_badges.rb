@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
  end 
  
  def assign_rooms(attendees)
-    attendees = %w(Edsgar Ada Charles  Alan Grace Linus Matz).each_with_index
+    attendees = 
  end
  
  def printer(attendees)
