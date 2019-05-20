@@ -17,8 +17,8 @@ end
 end 
  
  def printer(attendees)
-   batch_badge_creator.each
-   for n
+   batch_badge_creator.each do
+     line.chomp
    assign_rooms
  end
  
