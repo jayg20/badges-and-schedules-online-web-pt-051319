@@ -8,5 +8,7 @@ def batch_badge_creator(attendees)
    puts "Hello, #{name}! You will be assigned to room #{index}"
    return assigned_array
  end 
+ 
+ 
     
     
