@@ -8,10 +8,9 @@ def batch_badge_creator(attendees)
    puts "Hello, my name is #{attendees}"
  end 
  
- def assign_rooms(attendees)
-    attendees = ["Edsgar", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+ def assign_rooms(:attendees)
   require 'enumerator'
-[attendees].enum_for(each_with_index+1).collect do |name, index| 
+[:attendees].enum_for(each_with_index+1).collect do |name, index| 
  puts  "Hello, #{name}! You'll be assigned to room #{index}!"
 end
 end 
