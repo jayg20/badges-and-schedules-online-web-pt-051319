@@ -25,4 +25,4 @@ end
    assign_rooms.each do 
  end
  
- printer(attendees)
+ printer(:attendees)
